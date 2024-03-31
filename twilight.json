@@ -1,52 +1,48 @@
 
 <!DOCTYPE html>
 <html lang="ar" dir="rtl" class="Aali-theme ">
-
-
 <head>
 <script type="d1d431250d8f1dee8e832f32-text/javascript"> 
-									window.darkModeStyle = "light";
-											</script>
+window.darkModeStyle = "light";
+</script>
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#181a1b" />
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#ffffff" />
 <script data-cfasync="false">
-				window.customCardProps = {product_preview_down:0, 
-				preview_text: "عرض سريع", 
-				p_atc_btn_hidden: 0 ,
-				product_preview_icon_hide:  0,
-				is_price_ratio_on: 0,
-				price_ratio_place: "down",
-				price_ratio_word: "خصم",
-				small_atc: "",
-								show_pc_ratings: "hide",
-												custom_pc: false
-								} 
-								window.menuStartPoint = 15000;
-										</script>
+window.customCardProps = {product_preview_down:0, 
+preview_text: "عرض سريع", 
+p_atc_btn_hidden: 0 ,
+product_preview_icon_hide:  0,
+is_price_ratio_on: 0,
+price_ratio_place: "down",
+price_ratio_word: "خصم",
+small_atc: "",
+show_pc_ratings: "hide",
+custom_pc: false
+} 
+window.menuStartPoint = 15000;
+</script>
 <style>
 																		.index .app-inner:before {
-						  content: "";
-						  width: 100%;
-						  height: 100%;
-						  background-color: #fff;
-						  background: #ffffff;
-						  /* make var for color */
-						  position: fixed;
-						  z-index: 999999;
-						  transform: scale(0);
-						  animation-name: pupup;
-						  animation-duration: 2s;
-						  animation-duration: 2s;
-						}
-						@keyframes pupup {
-						  0% {
-						    transform: scale(1);
-						  }
-						  18% {
-						    transform: scale(1);
+ content: "";
+ width: 100%;
+ height: 100%;
+background-color: #fff;
+ background: #ffffff;
+  /* make var for color */
+ position: fixed;
+ z-index: 999999;
+ transform: scale(0);
+  animation-name: pupup;
+ animation-duration: 2s;
+ animation-duration: 2s;
+}
+@keyframes pupup {
+ 0% {
+ transform: scale(1);
+} 18% {transform: scale(1);
 						  }
 						  80% {
 						    transform: scale(1);
